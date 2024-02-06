@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "../pages/Home";
-import ButtonPage from "../pages/ButtonPage";
 
 import ModalPage from "../pages/ModalPage";
 
@@ -72,7 +71,6 @@ function routes() {
         </Route>
 
         <Route path="/Home" element={<Home />} />
-        <Route path="/buttons" element={<ButtonPage />} />
 
         <Route path="/navbar" element={<NavbarPage />} />
         <Route path="/navbar/example" element={<NavbarExample />} />
